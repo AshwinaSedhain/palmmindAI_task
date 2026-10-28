@@ -1,0 +1,31 @@
+# Environment variables - never commit
+.env
+
+# Local database files
+data/
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Qdrant local storage
+qdrant_storage/
+
+# Uploaded files (if stored locally)
+uploads/
